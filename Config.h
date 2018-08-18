@@ -8,6 +8,7 @@
 #define BUTTON 2
 #define LED 13
 #define SCHWARZ 3
+#define POTI A0
 
 // Implementierung:
 extern bool stuff;
