@@ -22,7 +22,8 @@ void loop() {
   schwarz = !digitalRead(SCHWARZ);
   if (weiss && !lastWeiss) condition.decreaseState();
   if (schwarz && !lastSchwarz) condition.increaseState();
-  analogWrite(LED, map(condition.getState(), 0, RANGE, 0.05 * 255, 255));
+  if(millis() % 1000 >= 500 || condition.getState() % 2 == 1)  analogWrite(LED, map(condition.getState(), 0, RANGE, 0.05 * 255, 255));
+  else analogWrite(LED, 0);
   lastWeiss = weiss;
   lastSchwarz = schwarz;
 
