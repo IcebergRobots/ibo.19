@@ -3,11 +3,12 @@
 
 #include "Arduino.h"
 #include "Utility.h"
-#include "Person.h"
 
-#define BUTTON 2
-#define LED 13
+#define WEISS 2
+#define LED 5
 #define SCHWARZ 3
 #define POTI A0
+
+#define RANGE 7
 
 #endif
