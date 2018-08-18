@@ -1,7 +1,4 @@
 #include "Config.h"
-// Globale Definition
-Person person;
-bool stuff = true;
 
 void setup() {
   pinMode(SCHWARZ, INPUT_PULLUP);

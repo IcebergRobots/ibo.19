@@ -10,7 +10,4 @@
 #define SCHWARZ 3
 #define POTI A0
 
-// Implementierung:
-extern bool stuff;
-
 #endif
