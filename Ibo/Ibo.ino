@@ -1,6 +1,6 @@
 #include "Config.h"
 
-bool weiss = 0;
+bool weiss = 0; //weiß ist nicht schwarz
 bool schwarz = 0;
 
 bool lastSchwarz = 0;
